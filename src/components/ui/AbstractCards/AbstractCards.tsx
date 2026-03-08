@@ -17,7 +17,7 @@ const AbstractCards: React.FC<AbstractCardsProps> = ({ cards, className, ...prop
   return (
     <section className={clsx("mx-auto grid max-w-5xl gap-4 px-6 py-16 lg:grid-cols-3", className)} {...props}>
       {cards.map((card) => (
-        <article key={card.title} className="rounded-xl border border-myteengig-border bg-white p-6 shadow-xs">
+        <article key={card.title} className="rounded-xl border border-myteengig-border bg-white p-6 text-center shadow-xs">
           <h3 className="text-xl font-semibold text-myteengig-text-primary">{card.title}</h3>
           <ul className="mt-4 space-y-2 text-myteengig-text-muted">
             {card.items.map((item) => (

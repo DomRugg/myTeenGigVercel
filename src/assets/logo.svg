@@ -1,0 +1,40 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">MyTeenGig logo</title>
+  <desc id="desc">Magnifying glass icon with teen silhouettes inside the lens.</desc>
+
+  <defs>
+    <linearGradient id="lensGradient" x1="56" y1="48" x2="176" y2="184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#BFEFFF"/>
+      <stop offset="1" stop-color="#8DD5FF"/>
+    </linearGradient>
+    <linearGradient id="ringGradient" x1="40" y1="40" x2="192" y2="192" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0A4666"/>
+      <stop offset="1" stop-color="#1177A8"/>
+    </linearGradient>
+    <linearGradient id="handleGradient" x1="156" y1="156" x2="246" y2="246" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1177A8"/>
+      <stop offset="1" stop-color="#0A4666"/>
+    </linearGradient>
+    <clipPath id="lensClip">
+      <circle cx="108" cy="108" r="62"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="108" cy="108" r="62" fill="url(#lensGradient)"/>
+  <circle cx="108" cy="108" r="76" stroke="url(#ringGradient)" stroke-width="16"/>
+
+  <g clip-path="url(#lensClip)">
+    <circle cx="88" cy="96" r="13" fill="#0A4666"/>
+    <path d="M62 148C62 129.3 73.9 120 88 120C102.1 120 114 129.3 114 148V164H62V148Z" fill="#0A4666"/>
+
+    <circle cx="128" cy="92" r="14" fill="#1177A8"/>
+    <path d="M98 148C98 127.8 111.4 117 128 117C144.6 117 158 127.8 158 148V164H98V148Z" fill="#1177A8"/>
+
+    <path d="M46 160H170" stroke="#FFFFFF" stroke-opacity="0.35" stroke-width="6" stroke-linecap="round"/>
+  </g>
+
+  <path d="M166 166L232 232" stroke="url(#handleGradient)" stroke-width="24" stroke-linecap="round"/>
+  <path d="M170 170L228 228" stroke="#53B3E2" stroke-opacity="0.55" stroke-width="8" stroke-linecap="round"/>
+
+  <circle cx="82" cy="74" r="10" fill="#FFFFFF" fill-opacity="0.45"/>
+</svg>

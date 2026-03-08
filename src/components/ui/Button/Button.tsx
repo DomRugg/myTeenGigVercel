@@ -31,13 +31,13 @@ const Button: React.FC<ButtonProps> = ({
           "rounded-md px-3.5 py-6 text-sm": size === "xl",
         },
         {
-          "font-semibold border-1 border-gray-300 bg-white py-2 hover:bg-gray-50 hover:ring-1 hover:ring-myteengig-primary-hover":
+          "font-semibold border-1 border-myteengig-border bg-white py-2 hover:bg-myteengig-background hover:ring-1 hover:ring-myteengig-primary-hover":
             variant === "outline",
           "font-semibold bg-myteengig-primary disabled:bg-myteengig-secondary-hover hover:bg-myteengig-primary-hover hover:text-myteengig-secondary focus:ring-myteengig-primary focus-visible:outline-myteengig-primary text-white":
             variant === "primary",
-          "font-semibold bg-myteengig-secondary hover:bg-myteengig-secondary-hover focus:ring-myteengig-secondary focus-visible:outline-myteengig-secondary text-gray-800":
+          "font-semibold bg-myteengig-secondary hover:bg-myteengig-secondary-hover focus:ring-myteengig-secondary focus-visible:outline-myteengig-secondary text-myteengig-text-primary":
             variant === "secondary",
-          "hover:bg-myteengig-primary hover:text-white focus:ring-myteengig-secondary focus-visible:outline-myteengig-secondary bg-transparent text-gray-700":
+          "hover:bg-myteengig-primary hover:text-white focus:ring-myteengig-secondary focus-visible:outline-myteengig-secondary bg-transparent text-myteengig-text-muted":
             variant === "tertiary",
         },
         className,

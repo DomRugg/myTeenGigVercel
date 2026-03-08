@@ -8,24 +8,24 @@ import { companyName } from "../../constants/constants";
 
 export const roleButtons = [
   "I'm a Teen",
-  "I'm a Parent",
-  "I'm a Homeowner",
+  "I'm a Parent/Guardian",
+  "I'm Looking to Post Opportunities",
   "I'm a Business",
 ];
 
 export const focusPoints = [
-  "Clear job expectations",
-  "Parent awareness and approval",
-  "Public and low-risk job categories",
+  "Clear gig expectations",
+  "Parent/Guardian awareness and approval",
+  "Public and low-risk gig categories",
   "Transparent pay terms",
 ];
 
 export const howItWorks: FlowChartStep[] = [
   {
-    title: "1. Employers Post a Job",
-    body: "Homeowners and businesses post a job.",
+    title: "1. Employers Post a Gig",
+    body: "Homeowners and businesses post a gig.",
     imageSrc: clipboardIcon,
-    imageAlt: "Post a job step",
+    imageAlt: "Post a gig step",
   },
   {
     title: "2. Teens Apply",
@@ -34,8 +34,8 @@ export const howItWorks: FlowChartStep[] = [
     imageAlt: "Teens apply step",
   },
   {
-    title: "3. Parent Awareness",
-    body: "Parents are notified and may be required to approve certain jobs.",
+    title: "3. Parent/Guardian Awareness",
+    body: "Parents/guardians are notified and may be required to approve certain gigs.",
     imageSrc: bellIcon,
     imageAlt: "Parent awareness step",
   },
@@ -47,19 +47,8 @@ export const howItWorks: FlowChartStep[] = [
   },
 ];
 
-export const disallowed = [
-  "Babysitting or childcare",
-  "Driving or transportation",
-  "Ladder or elevated work",
-  "Overnight jobs",
-  "Alcohol service",
-];
-
-export const limitedInHome = ["Snow plowing", "Clean ups", "Party set ups"];
-
 export const navItems = [
   { href: "#how-it-works", label: "How It Works" },
-  { href: "#safety", label: "Safety" },
   { href: "#about", label: "About" },
 ];
 
@@ -69,21 +58,21 @@ export const audienceCards: AbstractCard[] = [
     items: [
       "Build real-world experience",
       "Earn money locally",
-      "Choose jobs that fit your schedule",
+      "Choose gigs that fit your schedule",
       "Stay within safe, approved categories",
     ],
-    ctaLabel: "Explore Teen Jobs",
+    ctaLabel: "Explore Teen Gigs",
     ctaVariant: "primary",
   },
   {
-    title: "For Parents",
+    title: "For Parents/Guardians",
     items: [
       "Receive notifications",
-      "Approve certain jobs",
+      "Approve certain gigs",
       "Understand details before participation",
       "Feel confident in safety guidelines",
     ],
-    ctaLabel: "Learn About Parent Controls",
+    ctaLabel: "Learn About Parent/Guardian Controls",
     ctaVariant: "secondary",
   },
   {
@@ -91,10 +80,9 @@ export const audienceCards: AbstractCard[] = [
     items: [
       "Access motivated local teens",
       "Fill short-term help needs",
-      "Post clearly defined jobs",
-      "Pay teens directly",
+      "Post clearly defined gigs",
     ],
-    ctaLabel: "Post a Job",
+    ctaLabel: "Post a Gig",
     ctaVariant: "outline",
   },
 ];
